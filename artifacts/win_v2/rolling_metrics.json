@@ -1,0 +1,190 @@
+{
+  "history_by_year": {
+    "2023": 22,
+    "2024": 24,
+    "2025": 24,
+    "2026": 20
+  },
+  "skipped_races": [],
+  "test_races": 52,
+  "first_test": [
+    2024,
+    "Baku"
+  ],
+  "last_test": [
+    2026,
+    "S\u00e3o Paulo"
+  ],
+  "overall": {
+    "grid_only_raw": {
+      "races": 52,
+      "top_pick_hits": 34,
+      "log_loss": 1.2744635821653447,
+      "brier": 0.54397360814828
+    },
+    "grid_only_calibrated": {
+      "races": 52,
+      "top_pick_hits": 34,
+      "log_loss": 1.2862639119131103,
+      "brier": 0.5513471902007959
+    },
+    "current_raw": {
+      "races": 52,
+      "top_pick_hits": 30,
+      "log_loss": 1.1563661638153273,
+      "brier": 0.5368017521583981
+    },
+    "current_calibrated": {
+      "races": 52,
+      "top_pick_hits": 30,
+      "log_loss": 1.179088962431809,
+      "brier": 0.5474274294302401
+    },
+    "enriched_raw": {
+      "races": 52,
+      "top_pick_hits": 32,
+      "log_loss": 1.1728929116263545,
+      "brier": 0.55606956953495
+    },
+    "enriched_calibrated": {
+      "races": 52,
+      "top_pick_hits": 32,
+      "log_loss": 1.195576016009169,
+      "brier": 0.5663465383682096
+    }
+  },
+  "by_season": {
+    "2024": {
+      "grid_only_raw": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.8268704022046816,
+        "brier": 0.6952832289320452
+      },
+      "grid_only_calibrated": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.852863775010127,
+        "brier": 0.7076176607934901
+      },
+      "current_raw": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.8193546439725037,
+        "brier": 0.6971784428490382
+      },
+      "current_calibrated": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.7852212753924561,
+        "brier": 0.7216375692092574
+      },
+      "enriched_raw": {
+        "races": 8,
+        "top_pick_hits": 5,
+        "log_loss": 1.775878856593973,
+        "brier": 0.7086268020925345
+      },
+      "enriched_calibrated": {
+        "races": 8,
+        "top_pick_hits": 5,
+        "log_loss": 1.7535528810006258,
+        "brier": 0.7314088615544686
+      }
+    },
+    "2025": {
+      "grid_only_raw": {
+        "races": 24,
+        "top_pick_hits": 16,
+        "log_loss": 1.1457541403614988,
+        "brier": 0.5416398302300618
+      },
+      "grid_only_calibrated": {
+        "races": 24,
+        "top_pick_hits": 16,
+        "log_loss": 1.1683989063146163,
+        "brier": 0.5564402653786876
+      },
+      "current_raw": {
+        "races": 24,
+        "top_pick_hits": 13,
+        "log_loss": 1.0157940926682103,
+        "brier": 0.5284209000127008
+      },
+      "current_calibrated": {
+        "races": 24,
+        "top_pick_hits": 13,
+        "log_loss": 1.0847721339907765,
+        "brier": 0.5487161461486257
+      },
+      "enriched_raw": {
+        "races": 24,
+        "top_pick_hits": 13,
+        "log_loss": 1.070973084225696,
+        "brier": 0.5583524371513378
+      },
+      "enriched_calibrated": {
+        "races": 24,
+        "top_pick_hits": 13,
+        "log_loss": 1.1293577916256727,
+        "brier": 0.5752818575918858
+      }
+    },
+    "2026": {
+      "grid_only_raw": {
+        "races": 20,
+        "top_pick_hits": 14,
+        "log_loss": 1.207952184314225,
+        "brier": 0.48625029333663583
+      },
+      "grid_only_calibrated": {
+        "races": 20,
+        "top_pick_hits": 14,
+        "log_loss": 1.2010619733924968,
+        "brier": 0.48272731175024813
+      },
+      "current_raw": {
+        "races": 20,
+        "top_pick_hits": 13,
+        "log_loss": 1.059857257128997,
+        "brier": 0.4827080984569787
+      },
+      "current_calibrated": {
+        "races": 20,
+        "top_pick_hits": 13,
+        "log_loss": 1.0498162313767891,
+        "brier": 0.47619691345657056
+      },
+      "enriched_raw": {
+        "races": 20,
+        "top_pick_hits": 14,
+        "log_loss": 1.0540023265200973,
+        "brier": 0.492307235372251
+      },
+      "enriched_calibrated": {
+        "races": 20,
+        "top_pick_hits": 14,
+        "log_loss": 1.0518471392727817,
+        "brier": 0.4895992260252943
+      }
+    }
+  },
+  "paired_log_loss": {
+    "current": {
+      "folds": 9,
+      "mean_difference": 0.016487053577359932,
+      "bootstrap_95": [
+        -0.03210253655164163,
+        0.07731930009507514
+      ]
+    },
+    "grid_only": {
+      "folds": 9,
+      "mean_difference": -0.09068789590394143,
+      "bootstrap_95": [
+        -0.239486753364093,
+        0.05505703751654188
+      ]
+    }
+  }
+}

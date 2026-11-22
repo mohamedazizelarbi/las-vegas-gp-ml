@@ -1,0 +1,446 @@
+{
+  "test_races": 52,
+  "total_history": 90,
+  "meeting_keys": [
+    1245,
+    1246,
+    1247,
+    1248,
+    1249,
+    1250,
+    1251,
+    1252,
+    1254,
+    1255,
+    1256,
+    1257,
+    1258,
+    1259,
+    1260,
+    1261,
+    1262,
+    1263,
+    1264,
+    1277,
+    1265,
+    1266,
+    1267,
+    1268,
+    1269,
+    1270,
+    1271,
+    1272,
+    1273,
+    1274,
+    1275,
+    1276,
+    1279,
+    1280,
+    1281,
+    1284,
+    1285,
+    1286,
+    1287,
+    1288,
+    1289,
+    1290,
+    1291,
+    1292,
+    1293,
+    1294,
+    1295,
+    1308,
+    1296,
+    1297,
+    1298,
+    1299
+  ],
+  "feature_groups": {
+    "long_run": [
+      "practice_long_run_gap",
+      "practice_long_run_missing"
+    ],
+    "race_pace": [
+      "driver_recent_race_pace",
+      "driver_recent_race_pace_missing",
+      "constructor_recent_race_pace",
+      "constructor_recent_race_pace_missing"
+    ],
+    "dnf_rate": [
+      "driver_dnf_rate",
+      "constructor_dnf_rate"
+    ]
+  },
+  "overall": {
+    "current_raw": {
+      "races": 52,
+      "top_pick_hits": 30,
+      "log_loss": 1.1563661638153273,
+      "brier": 0.5368017521583981
+    },
+    "current_calibrated": {
+      "races": 52,
+      "top_pick_hits": 30,
+      "log_loss": 1.179088962431809,
+      "brier": 0.5474274294302401
+    },
+    "long_run_raw": {
+      "races": 52,
+      "top_pick_hits": 28,
+      "log_loss": 1.1651767580951888,
+      "brier": 0.5493805281625597
+    },
+    "long_run_calibrated": {
+      "races": 52,
+      "top_pick_hits": 28,
+      "log_loss": 1.1782594910509443,
+      "brier": 0.5556485820767275
+    },
+    "race_pace_raw": {
+      "races": 52,
+      "top_pick_hits": 32,
+      "log_loss": 1.1699468088521983,
+      "brier": 0.5529434128313508
+    },
+    "race_pace_calibrated": {
+      "races": 52,
+      "top_pick_hits": 32,
+      "log_loss": 1.2011960803493638,
+      "brier": 0.5669362565685546
+    },
+    "dnf_rate_raw": {
+      "races": 52,
+      "top_pick_hits": 31,
+      "log_loss": 1.1556684617141262,
+      "brier": 0.5358484847184435
+    },
+    "dnf_rate_calibrated": {
+      "races": 52,
+      "top_pick_hits": 31,
+      "log_loss": 1.1807140374806184,
+      "brier": 0.5477371368853345
+    },
+    "enriched_raw": {
+      "races": 52,
+      "top_pick_hits": 32,
+      "log_loss": 1.1728929116263545,
+      "brier": 0.55606956953495
+    },
+    "enriched_calibrated": {
+      "races": 52,
+      "top_pick_hits": 32,
+      "log_loss": 1.195576016009169,
+      "brier": 0.5663465383682096
+    },
+    "grid_only_raw": {
+      "races": 52,
+      "top_pick_hits": 34,
+      "log_loss": 1.2744635821653447,
+      "brier": 0.54397360814828
+    },
+    "grid_only_calibrated": {
+      "races": 52,
+      "top_pick_hits": 34,
+      "log_loss": 1.2862639119131103,
+      "brier": 0.5513471902007959
+    }
+  },
+  "by_season": {
+    "2024": {
+      "current_raw": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.8193546439725037,
+        "brier": 0.6971784428490382
+      },
+      "current_calibrated": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.7852212753924561,
+        "brier": 0.7216375692092574
+      },
+      "long_run_raw": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.7849136569865176,
+        "brier": 0.688965282622116
+      },
+      "long_run_calibrated": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.7668644034827803,
+        "brier": 0.7062854210591755
+      },
+      "race_pace_raw": {
+        "races": 8,
+        "top_pick_hits": 5,
+        "log_loss": 1.789087260933224,
+        "brier": 0.7099210571848729
+      },
+      "race_pace_calibrated": {
+        "races": 8,
+        "top_pick_hits": 5,
+        "log_loss": 1.7624289657147916,
+        "brier": 0.7366328217793411
+      },
+      "dnf_rate_raw": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.8283045080133693,
+        "brier": 0.6992582594188556
+      },
+      "dnf_rate_calibrated": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.7906315492867206,
+        "brier": 0.7241838245450603
+      },
+      "enriched_raw": {
+        "races": 8,
+        "top_pick_hits": 5,
+        "log_loss": 1.775878856593973,
+        "brier": 0.7086268020925345
+      },
+      "enriched_calibrated": {
+        "races": 8,
+        "top_pick_hits": 5,
+        "log_loss": 1.7535528810006258,
+        "brier": 0.7314088615544686
+      },
+      "grid_only_raw": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.8268704022046816,
+        "brier": 0.6952832289320452
+      },
+      "grid_only_calibrated": {
+        "races": 8,
+        "top_pick_hits": 4,
+        "log_loss": 1.852863775010127,
+        "brier": 0.7076176607934901
+      }
+    },
+    "2025": {
+      "current_raw": {
+        "races": 24,
+        "top_pick_hits": 13,
+        "log_loss": 1.0157940926682103,
+        "brier": 0.5284209000127008
+      },
+      "current_calibrated": {
+        "races": 24,
+        "top_pick_hits": 13,
+        "log_loss": 1.0847721339907765,
+        "brier": 0.5487161461486257
+      },
+      "long_run_raw": {
+        "races": 24,
+        "top_pick_hits": 12,
+        "log_loss": 1.0269585702486634,
+        "brier": 0.5409071639953865
+      },
+      "long_run_calibrated": {
+        "races": 24,
+        "top_pick_hits": 12,
+        "log_loss": 1.066902059685466,
+        "brier": 0.5522439199229955
+      },
+      "race_pace_raw": {
+        "races": 24,
+        "top_pick_hits": 14,
+        "log_loss": 1.0743522488526105,
+        "brier": 0.5654279645975332
+      },
+      "race_pace_calibrated": {
+        "races": 24,
+        "top_pick_hits": 14,
+        "log_loss": 1.1494632585276217,
+        "brier": 0.5865589148367003
+      },
+      "dnf_rate_raw": {
+        "races": 24,
+        "top_pick_hits": 14,
+        "log_loss": 1.0144178045464634,
+        "brier": 0.5242086476534263
+      },
+      "dnf_rate_calibrated": {
+        "races": 24,
+        "top_pick_hits": 14,
+        "log_loss": 1.090040090417699,
+        "brier": 0.5469225955628177
+      },
+      "enriched_raw": {
+        "races": 24,
+        "top_pick_hits": 13,
+        "log_loss": 1.070973084225696,
+        "brier": 0.5583524371513378
+      },
+      "enriched_calibrated": {
+        "races": 24,
+        "top_pick_hits": 13,
+        "log_loss": 1.1293577916256727,
+        "brier": 0.5752818575918858
+      },
+      "grid_only_raw": {
+        "races": 24,
+        "top_pick_hits": 16,
+        "log_loss": 1.1457541403614988,
+        "brier": 0.5416398302300618
+      },
+      "grid_only_calibrated": {
+        "races": 24,
+        "top_pick_hits": 16,
+        "log_loss": 1.1683989063146163,
+        "brier": 0.5564402653786876
+      }
+    },
+    "2026": {
+      "current_raw": {
+        "races": 20,
+        "top_pick_hits": 13,
+        "log_loss": 1.059857257128997,
+        "brier": 0.4827080984569787
+      },
+      "current_calibrated": {
+        "races": 20,
+        "top_pick_hits": 13,
+        "log_loss": 1.0498162313767891,
+        "brier": 0.47619691345657056
+      },
+      "long_run_raw": {
+        "races": 20,
+        "top_pick_hits": 12,
+        "log_loss": 1.083143823954488,
+        "brier": 0.503714663379345
+      },
+      "long_run_calibrated": {
+        "races": 20,
+        "top_pick_hits": 12,
+        "log_loss": 1.076446443716784,
+        "brier": 0.49947944106822667
+      },
+      "race_pace_raw": {
+        "races": 20,
+        "top_pick_hits": 13,
+        "log_loss": 1.0370041000192933,
+        "brier": 0.4751708929705232
+      },
+      "race_pace_calibrated": {
+        "races": 20,
+        "top_pick_hits": 13,
+        "log_loss": 1.0387823123892832,
+        "brier": 0.47551044056246516
+      },
+      "dnf_rate_raw": {
+        "races": 20,
+        "top_pick_hits": 13,
+        "log_loss": 1.0561148317956246,
+        "brier": 0.4844523793162992
+      },
+      "dnf_rate_calibrated": {
+        "races": 20,
+        "top_pick_hits": 13,
+        "log_loss": 1.0455557692336808,
+        "brier": 0.4781359114084645
+      },
+      "enriched_raw": {
+        "races": 20,
+        "top_pick_hits": 14,
+        "log_loss": 1.0540023265200973,
+        "brier": 0.492307235372251
+      },
+      "enriched_calibrated": {
+        "races": 20,
+        "top_pick_hits": 14,
+        "log_loss": 1.0518471392727817,
+        "brier": 0.4895992260252943
+      },
+      "grid_only_raw": {
+        "races": 20,
+        "top_pick_hits": 14,
+        "log_loss": 1.207952184314225,
+        "brier": 0.48625029333663583
+      },
+      "grid_only_calibrated": {
+        "races": 20,
+        "top_pick_hits": 14,
+        "log_loss": 1.2010619733924968,
+        "brier": 0.48272731175024813
+      }
+    }
+  },
+  "paired_log_loss_vs_current": {
+    "long_run": {
+      "raw": {
+        "folds": 9,
+        "mean_difference": 0.008810594279861608,
+        "bootstrap_95": [
+          -0.02689095218360217,
+          0.05322068829131466
+        ]
+      },
+      "calibrated": {
+        "folds": 9,
+        "mean_difference": -0.000829471380864735,
+        "bootstrap_95": [
+          -0.040394804832376834,
+          0.04661747560479327
+        ]
+      }
+    },
+    "race_pace": {
+      "raw": {
+        "folds": 9,
+        "mean_difference": 0.013580645036870946,
+        "bootstrap_95": [
+          -0.03335398535170773,
+          0.0701647473775158
+        ]
+      },
+      "calibrated": {
+        "folds": 9,
+        "mean_difference": 0.022107117917554694,
+        "bootstrap_95": [
+          -0.02469302676935787,
+          0.08487941409600583
+        ]
+      }
+    },
+    "dnf_rate": {
+      "raw": {
+        "folds": 9,
+        "mean_difference": -0.0006977021012010318,
+        "bootstrap_95": [
+          -0.012604593938514293,
+          0.00930882103651974
+        ]
+      },
+      "calibrated": {
+        "folds": 9,
+        "mean_difference": 0.0016250750488093911,
+        "bootstrap_95": [
+          -0.01290603769446211,
+          0.014674561049448455
+        ]
+      }
+    },
+    "enriched": {
+      "raw": {
+        "folds": 9,
+        "mean_difference": 0.016526747811027195,
+        "bootstrap_95": [
+          -0.031133358851471865,
+          0.07552791041726917
+        ]
+      },
+      "calibrated": {
+        "folds": 9,
+        "mean_difference": 0.016487053577359932,
+        "bootstrap_95": [
+          -0.03210253655164163,
+          0.07731930009507514
+        ]
+      }
+    }
+  }
+}

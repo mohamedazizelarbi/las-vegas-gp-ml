@@ -1,0 +1,98 @@
+{
+  "test_races": 52,
+  "test_drivers": 1052,
+  "lookback_races": 18,
+  "anchor_entries": 80,
+  "maximum_log_odds_shift": 0.7,
+  "test_offsets": [
+    {
+      "first_test_meeting": 1245,
+      "test_races": 6,
+      "log_odds_offset": -0.42975983255018946
+    },
+    {
+      "first_test_meeting": 1251,
+      "test_races": 6,
+      "log_odds_offset": -0.3123450457263969
+    },
+    {
+      "first_test_meeting": 1258,
+      "test_races": 6,
+      "log_odds_offset": -0.20188808696984775
+    },
+    {
+      "first_test_meeting": 1264,
+      "test_races": 6,
+      "log_odds_offset": 0.0829127503122436
+    },
+    {
+      "first_test_meeting": 1269,
+      "test_races": 6,
+      "log_odds_offset": 0.044547604836407115
+    },
+    {
+      "first_test_meeting": 1275,
+      "test_races": 6,
+      "log_odds_offset": -0.08877854374295568
+    },
+    {
+      "first_test_meeting": 1285,
+      "test_races": 6,
+      "log_odds_offset": -0.05746528737072367
+    },
+    {
+      "first_test_meeting": 1291,
+      "test_races": 6,
+      "log_odds_offset": 0.25479974275513084
+    },
+    {
+      "first_test_meeting": 1296,
+      "test_races": 4,
+      "log_odds_offset": 0.4146108887711306
+    }
+  ],
+  "events": {
+    "podium": {
+      "challenger": {
+        "brier": 0.0663975631209805,
+        "log_loss": 0.22462765010598063,
+        "observed_rate": 0.1482889733840304,
+        "mean_probability": 0.1463764258555133
+      },
+      "frozen_model": {
+        "brier": 0.06628405167316274,
+        "log_loss": 0.22370582865641722,
+        "observed_rate": 0.1482889733840304,
+        "mean_probability": 0.14635209125475285
+      }
+    },
+    "points": {
+      "challenger": {
+        "brier": 0.14734103930150397,
+        "log_loss": 0.4559292442185904,
+        "observed_rate": 0.49334600760456276,
+        "mean_probability": 0.4848697718631179
+      },
+      "frozen_model": {
+        "brier": 0.14711764539609806,
+        "log_loss": 0.4555910099495727,
+        "observed_rate": 0.49334600760456276,
+        "mean_probability": 0.4848148288973384
+      }
+    },
+    "dnf": {
+      "challenger": {
+        "brier": 0.1199780827644239,
+        "log_loss": 0.4020945544784191,
+        "observed_rate": 0.1435361216730038,
+        "mean_probability": 0.12122294333173621
+      },
+      "frozen_model": {
+        "brier": 0.11944809423131303,
+        "log_loss": 0.39844542926756543,
+        "observed_rate": 0.1435361216730038,
+        "mean_probability": 0.1221314345278786
+      }
+    }
+  }
+}

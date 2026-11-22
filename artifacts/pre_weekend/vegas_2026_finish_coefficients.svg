@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="450" viewBox="0 0 880 450">
+<rect width="880" height="450" fill="#f8fafc"/>
+<g font-family="Arial,sans-serif" font-size="17" fill="#17283a">
+<text x="28" y="55" font-size="28" font-weight="bold">Las Vegas finishing-position ridge coefficients</text>
+<text x="28" y="88">Change in predicted positions per one feature standard deviation, with other features held fixed</text>
+<text x="530" y="126" text-anchor="middle">0</text>
+<line x1="530" y1="137" x2="530" y2="359" stroke="#708196"/>
+<text x="28" y="181">Recent classified finish</text><rect x="530" y="161" width="225.0" height="28" fill="#bd482f"/><text x="764.0" y="181" text-anchor="start">+3.96</text><text x="28" y="256">Recent DNF rate</text><rect x="530" y="236" width="6.264085888114213" height="28" fill="#bd482f"/><text x="545.2640858881142" y="256" text-anchor="start">+0.11</text><text x="28" y="331">Recent win rate</text><rect x="524.6752639662127" y="311" width="5.3247360337873575" height="28" fill="#2563a1"/><text x="515.6752639662127" y="331" text-anchor="end">-0.09</text>
+<text x="28" y="408">Negative = better finish. Positive = worse finish. Effects scaled to a 22-driver field.</text>
+</g></svg>

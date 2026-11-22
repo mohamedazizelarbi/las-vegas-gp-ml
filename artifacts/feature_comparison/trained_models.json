@@ -1,0 +1,318 @@
+{
+  "current": {
+    "name": "L2-regularized conditional logistic regression",
+    "task": "winner",
+    "features": [
+      "grid_log_position",
+      "qualifying_rank_fraction",
+      "qualifying_gap_pct",
+      "practice_gap_pct",
+      "practice_missing",
+      "driver_form",
+      "constructor_form"
+    ],
+    "penalty": 0.02,
+    "means": [
+      2.133714926154816,
+      0.5000574580556194,
+      1.1821396039333776,
+      1.4451705600151328,
+      0.0032751091703056767,
+      0.504371350675156,
+      0.5056360044336946
+    ],
+    "scales": [
+      0.7953697075339609,
+      0.30331391011071496,
+      0.9458159933650613,
+      0.9900779500511683,
+      0.05713477776475775,
+      0.15886568717229535,
+      0.1447402421575394
+    ],
+    "weights": [
+      -0.9245634441512263,
+      -0.4430353778097263,
+      -0.7324796151348731,
+      -0.4536755196555995,
+      0.15727934042226108,
+      -1.0123430975867127,
+      -0.2738545928164634
+    ],
+    "intercept": 0.0,
+    "temperature": 0.9052171565624016,
+    "inverse_temperature": 1.1047072989618756,
+    "calibration_races": 64,
+    "training_races": 90
+  },
+  "long_run": {
+    "name": "L2-regularized conditional logistic regression",
+    "task": "winner",
+    "features": [
+      "grid_log_position",
+      "qualifying_rank_fraction",
+      "qualifying_gap_pct",
+      "practice_gap_pct",
+      "practice_missing",
+      "driver_form",
+      "constructor_form",
+      "practice_long_run_gap",
+      "practice_long_run_missing"
+    ],
+    "penalty": 0.02,
+    "means": [
+      2.133714926154816,
+      0.5000574580556194,
+      1.1821396039333776,
+      1.4451705600151328,
+      0.0032751091703056767,
+      0.504371350675156,
+      0.5056360044336946,
+      0.0388996366330532,
+      0.15775109170305676
+    ],
+    "scales": [
+      0.7953697075339609,
+      0.30331391011071496,
+      0.9458159933650613,
+      0.9900779500511683,
+      0.05713477776475775,
+      0.15886568717229535,
+      0.1447402421575394,
+      0.9367371784374624,
+      0.3645074550260262
+    ],
+    "weights": [
+      -0.9332947539256727,
+      -0.4432067148097394,
+      -0.7238100575990215,
+      -0.45731159355882983,
+      0.16847204674567837,
+      -0.9770054656520807,
+      -0.2838271835999657,
+      0.12475196919103705,
+      -0.4025280360365498
+    ],
+    "intercept": 0.0,
+    "temperature": 0.9092275513440891,
+    "inverse_temperature": 1.0998346877211587,
+    "calibration_races": 64,
+    "training_races": 90
+  },
+  "race_pace": {
+    "name": "L2-regularized conditional logistic regression",
+    "task": "winner",
+    "features": [
+      "grid_log_position",
+      "qualifying_rank_fraction",
+      "qualifying_gap_pct",
+      "practice_gap_pct",
+      "practice_missing",
+      "driver_form",
+      "constructor_form",
+      "driver_recent_race_pace",
+      "driver_recent_race_pace_missing",
+      "constructor_recent_race_pace",
+      "constructor_recent_race_pace_missing"
+    ],
+    "penalty": 0.02,
+    "means": [
+      2.133714926154816,
+      0.5000574580556194,
+      1.1821396039333776,
+      1.4451705600151328,
+      0.0032751091703056767,
+      0.504371350675156,
+      0.5056360044336946,
+      0.03228504244122487,
+      0.05403930131004367,
+      0.032804549087594705,
+      0.04421397379912664
+    ],
+    "scales": [
+      0.7953697075339609,
+      0.30331391011071496,
+      0.9458159933650613,
+      0.9900779500511683,
+      0.05713477776475775,
+      0.15886568717229535,
+      0.1447402421575394,
+      0.5337729743838843,
+      0.22609523485462046,
+      0.5188366250272042,
+      0.2055701785766038
+    ],
+    "weights": [
+      -0.9019234430833784,
+      -0.42379050474215446,
+      -0.6772829737851235,
+      -0.381037129053373,
+      0.16120837122282852,
+      -0.8083246471350852,
+      -0.16618928792554788,
+      -0.7167026368044814,
+      -0.023445160303079523,
+      0.1925181451210852,
+      -0.00036112614479244314
+    ],
+    "intercept": 0.0,
+    "temperature": 0.9364330577819585,
+    "inverse_temperature": 1.0678819929409653,
+    "calibration_races": 64,
+    "training_races": 90
+  },
+  "dnf_rate": {
+    "name": "L2-regularized conditional logistic regression",
+    "task": "winner",
+    "features": [
+      "grid_log_position",
+      "qualifying_rank_fraction",
+      "qualifying_gap_pct",
+      "practice_gap_pct",
+      "practice_missing",
+      "driver_form",
+      "constructor_form",
+      "driver_dnf_rate",
+      "constructor_dnf_rate"
+    ],
+    "penalty": 0.02,
+    "means": [
+      2.133714926154816,
+      0.5000574580556194,
+      1.1821396039333776,
+      1.4451705600151328,
+      0.0032751091703056767,
+      0.504371350675156,
+      0.5056360044336946,
+      0.12372518511328556,
+      0.12467110176335068
+    ],
+    "scales": [
+      0.7953697075339609,
+      0.30331391011071496,
+      0.9458159933650613,
+      0.9900779500511683,
+      0.05713477776475775,
+      0.15886568717229535,
+      0.1447402421575394,
+      0.08424740932694424,
+      0.06821038792648165
+    ],
+    "weights": [
+      -0.9075145956334291,
+      -0.4484302121879851,
+      -0.7269371424180564,
+      -0.4388327926041994,
+      0.1580015139233222,
+      -1.0942140223109391,
+      -0.20054303679948934,
+      0.21022450276475274,
+      -0.18265274430861286
+    ],
+    "intercept": 0.0,
+    "temperature": 0.9047554990881445,
+    "inverse_temperature": 1.1052709831637912,
+    "calibration_races": 64,
+    "training_races": 90
+  },
+  "enriched": {
+    "name": "L2-regularized conditional logistic regression",
+    "task": "winner",
+    "features": [
+      "grid_log_position",
+      "qualifying_rank_fraction",
+      "qualifying_gap_pct",
+      "practice_gap_pct",
+      "practice_missing",
+      "driver_form",
+      "constructor_form",
+      "practice_long_run_gap",
+      "practice_long_run_missing",
+      "driver_recent_race_pace",
+      "driver_recent_race_pace_missing",
+      "constructor_recent_race_pace",
+      "constructor_recent_race_pace_missing",
+      "driver_dnf_rate",
+      "constructor_dnf_rate"
+    ],
+    "penalty": 0.02,
+    "means": [
+      2.133714926154816,
+      0.5000574580556194,
+      1.1821396039333776,
+      1.4451705600151328,
+      0.0032751091703056767,
+      0.504371350675156,
+      0.5056360044336946,
+      0.0388996366330532,
+      0.15775109170305676,
+      0.03228504244122487,
+      0.05403930131004367,
+      0.032804549087594705,
+      0.04421397379912664,
+      0.12372518511328556,
+      0.12467110176335068
+    ],
+    "scales": [
+      0.7953697075339609,
+      0.30331391011071496,
+      0.9458159933650613,
+      0.9900779500511683,
+      0.05713477776475775,
+      0.15886568717229535,
+      0.1447402421575394,
+      0.9367371784374624,
+      0.3645074550260262,
+      0.5337729743838843,
+      0.22609523485462046,
+      0.5188366250272042,
+      0.2055701785766038,
+      0.08424740932694424,
+      0.06821038792648165
+    ],
+    "weights": [
+      -0.895667782792495,
+      -0.4331727630830208,
+      -0.6700105771834398,
+      -0.37354077325881885,
+      0.16982826159238462,
+      -0.8442537785863174,
+      -0.10294418669893493,
+      0.12245692826492015,
+      -0.3864404913716631,
+      -0.6686528784313299,
+      -0.027976870739037898,
+      0.1816374245931742,
+      -0.0003019585958453829,
+      0.1823519050916606,
+      -0.20331797990384845
+    ],
+    "intercept": 0.0,
+    "temperature": 0.9186314164229604,
+    "inverse_temperature": 1.0885758772477856,
+    "calibration_races": 64,
+    "training_races": 90
+  },
+  "grid_only": {
+    "name": "L2-regularized conditional logistic regression",
+    "task": "winner",
+    "features": [
+      "grid_log_position"
+    ],
+    "penalty": 0.02,
+    "means": [
+      2.133714926154816
+    ],
+    "scales": [
+      0.7953697075339609
+    ],
+    "weights": [
+      -1.5998666762905907
+    ],
+    "intercept": 0.0,
+    "temperature": 0.9194271515374698,
+    "inverse_temperature": 1.0876337492620225,
+    "calibration_races": 64,
+    "training_races": 90
+  }
+}

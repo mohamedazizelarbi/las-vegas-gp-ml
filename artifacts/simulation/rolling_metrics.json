@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "training_races": 90,
+  "test_races": 52,
+  "test_drivers": 1052,
+  "backtest_draws": 5000,
+  "forecast_draws": 50000,
+  "metrics": {
+    "podium": {
+      "model": {
+        "brier": 0.06628405167316274,
+        "log_loss": 0.22370582865641722,
+        "observed_rate": 0.1482889733840304,
+        "mean_probability": 0.14635209125475285
+      },
+      "baseline": {
+        "brier": 0.06791808577284772,
+        "log_loss": 0.24062515119654443,
+        "observed_rate": 0.1482889733840304,
+        "mean_probability": 0.14634638783269963
+      },
+      "brier_delta": -0.001634034099684975
+    },
+    "points": {
+      "model": {
+        "brier": 0.14711764539609806,
+        "log_loss": 0.4555910099495727,
+        "observed_rate": 0.49334600760456276,
+        "mean_probability": 0.4848148288973384
+      },
+      "baseline": {
+        "brier": 0.16177724356834255,
+        "log_loss": 0.5032795923403246,
+        "observed_rate": 0.49334600760456276,
+        "mean_probability": 0.4843821292775665
+      },
+      "brier_delta": -0.014659598172244492
+    },
+    "dnf": {
+      "model": {
+        "brier": 0.11944809423131303,
+        "log_loss": 0.39844542926756543,
+        "observed_rate": 0.1435361216730038,
+        "mean_probability": 0.1221314345278786
+      },
+      "baseline": {
+        "brier": 0.1221981823413202,
+        "log_loss": 0.4103737421026338,
+        "observed_rate": 0.1435361216730038,
+        "mean_probability": 0.1194001622861909
+      },
+      "brier_delta": -0.002750088110007168
+    }
+  },
+  "meeting_keys": [
+    1245,
+    1246,
+    1247,
+    1248,
+    1249,
+    1250,
+    1251,
+    1252,
+    1254,
+    1255,
+    1256,
+    1257,
+    1258,
+    1259,
+    1260,
+    1261,
+    1262,
+    1263,
+    1264,
+    1277,
+    1265,
+    1266,
+    1267,
+    1268,
+    1269,
+    1270,
+    1271,
+    1272,
+    1273,
+    1274,
+    1275,
+    1276,
+    1279,
+    1280,
+    1281,
+    1284,
+    1285,
+    1286,
+    1287,
+    1288,
+    1289,
+    1290,
+    1291,
+    1292,
+    1293,
+    1294,
+    1295,
+    1308,
+    1296,
+    1297,
+    1298,
+    1299
+  ],
+  "labels": {
+    "podium": "P1\u2013P3 on official numeric race classification",
+    "points": "P1\u2013P10 points-finish proxy",
+    "dnf": "OpenF1 DNF flag for eligible starters"
+  }
+}

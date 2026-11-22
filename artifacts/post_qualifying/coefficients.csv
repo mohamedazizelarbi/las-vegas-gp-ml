@@ -1,0 +1,15 @@
+task,feature,coefficient_per_sd,unit
+winner,grid_log_position,-0.9156382922051546,relative log odds
+winner,qualifying_rank_fraction,-0.8000514144108163,relative log odds
+winner,qualifying_gap_pct,-1.6782203886452025,relative log odds
+winner,practice_gap_pct,-0.6883502673765981,relative log odds
+winner,practice_missing,-0.012522511538033954,relative log odds
+winner,driver_form,-0.8663681209997274,relative log odds
+winner,constructor_form,-0.1476070022549373,relative log odds
+finish,grid_log_position,1.1512631481980151,finishing positions
+finish,qualifying_rank_fraction,2.173882224555578,finishing positions
+finish,qualifying_gap_pct,-0.03459143902180889,finishing positions
+finish,practice_gap_pct,0.18071221790738798,finishing positions
+finish,practice_missing,-0.1303315866573995,finishing positions
+finish,driver_form,0.8350630676547772,finishing positions
+finish,constructor_form,0.5833178376124999,finishing positions
